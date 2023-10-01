@@ -1,0 +1,3 @@
+[submodule "privateGPT-api"]
+	path = privateGPT-api
+	url = git@github.com:HakierGrzonzo/privateGPT-api.git
