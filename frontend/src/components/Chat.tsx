@@ -84,22 +84,20 @@ export const Chat = () => {
         {!messages.length && (
           <Stack gap={2} mb={4}>
             <Typography variant="h2" textAlign="center">
-              Lorem ipsum dolor sit.
+              Chat Data Explorer
             </Typography>
             <Typography textAlign="center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              sapiente incidunt repellat aperiam optio autem nobis eaque fugit
-              vero deserunt.
+              Użyj czatu, aby przeglądać dane. Wpisz zapytanie i naciśnij wyślij. Pamiętaj, aby nie być wulgarnym ;P
             </Typography>
           </Stack>
         )}
         <FormControl sx={{ width: messages.length ? "100%" : "50%" }}>
           <InputLabel htmlFor="outlined-adornment">
-            Type a message...
+            Wpisz wiadomość...
           </InputLabel>
           <OutlinedInput
-            label="Type a message..."
-            placeholder="Type a message..."
+            label="Wpisz wiadomość..."
+            placeholder="Wpisz wiadomość..."
             fullWidth
             value={inputText}
             onChange={handleInputChange}
@@ -110,7 +108,7 @@ export const Chat = () => {
                 endIcon={<SendIcon />}
                 onClick={handleSendMessage}
               >
-                Send
+                Wyślij
               </Button>
             }
           />

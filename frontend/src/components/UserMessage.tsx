@@ -25,7 +25,7 @@ export const UserMessage = ({ message }: UserMessageProps) => {
           minWidth: 500,
         }}
       >
-        <Typography sx={{ fontSize: 14, color: "#4b4b4b" }}>You</Typography>
+        <Typography sx={{ fontSize: 14, color: "#4b4b4b" }}>Ja</Typography>
         {message}
       </Box>
     </Box>
